@@ -32,6 +32,9 @@ void addPassword() { //functionality for adding password
     file.close();  //closing the file
 }
 
+void viewPasswords() {
+    ifstream file("password")
+}
 int main() {
     int choice;
 
