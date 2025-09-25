@@ -33,7 +33,7 @@ On Exit:
 •	When you choose to exit, the program will take the current state of your data in memory.
 •	It will serialize this data back into a single plaintext string.
 •	It will pad this string to be a multiple of 16 bytes.
-•	It will encrypt the entire padded string with the AES key.
+•	It will encrypt the entire padded string with the AES key..
 •	It will overwrite the old passwords.dat file with this new ciphertext.
 
 
