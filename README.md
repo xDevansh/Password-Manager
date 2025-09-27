@@ -17,6 +17,7 @@ d) on saving and exiting a encrypted dat file gets created
 e)only that existing dat file can be accessed/ is accessed in the next time program is run
 f)failure to enter the masterpassword correctly will result in loss of the file **Due to the unsafe/less credible nature of the custom kdf function, cracking the dat file is possible.
 g)entering the correct password, u can make chnages to the existing encrypted file.
+
 ---
 
 ## Encryption
