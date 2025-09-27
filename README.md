@@ -6,7 +6,7 @@ This is an attempt of mine / a project to make a password manager using C++. I w
 
 ---
 
-##Current Features
+## Current Features
 
 It only allows for a single masterpassword - note to be used, trying to enter with a new master password will result in a master password incorrect error.
 Currently this CLI application on starting for the first time prompt user to:
