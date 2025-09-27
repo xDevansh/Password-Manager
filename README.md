@@ -6,6 +6,19 @@ This is an attempt of mine / a project to make a password manager using C++. I w
 
 ---
 
+##Current Features
+
+It only allows for a single masterpassword - note to be used, trying to enter with a new master password will result in a master password incorrect error.
+Currently this CLI application on starting for the first time prompt user to:
+a)give a master password 
+b)then provide the main menu option
+c) user can choose to do anything, if nothing is added, a empty byte dat gets created.
+d) on saving and exiting a encrypted dat file gets created
+e)only that existing dat file can be accessed/ is accessed in the next time program is run
+f)failure to enter the masterpassword correctly will result in loss of the file **Due to the unsafe/less credible nature of the custom kdf function, cracking the dat file is possible.
+g)entering the correct password, u can make chnages to the existing encrypted file.
+---
+
 ## Encryption
 
 I will be using symmetric encryption, i.e., the same key used for encryption is used for decryption here.  
